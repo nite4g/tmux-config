@@ -124,24 +124,22 @@ Commands
 
   Our prefix/leader key is `Control + a` now (just like the `screen` multiplexer). This sequence must be typed before any tmux shortcut.
 
-  * `Control + a` before any command
-  * `Control + a` then `?` to bring up list of keyboard shortcuts
-  * `Control + a` then `"` to split window
-  * `Control + a` then `<Space>` to change pane arrangement
-  * `Control + a` then `o` to rotate panes
-  * `Control + a` then `h`, `j`, `k`, `l` to move left, down, up, right. Respectively. (vim hjkl)
-  * `Control + a` then `;` to go to last panel
+  * `Control + x` before any command
+  * `Control + x` then `?` to bring up list of keyboard shortcuts
+  * `Control + x` then `"` to split window
+  * `Control + x` then `<Space>` to change pane arrangement
+  * `Control + x` then `o` to rotate panes
+  * `Control + x` then `h`, `j`, `k`, `l` to move left, down, up, right. Respectively. (vim hjkl)
+  * `Control + x` then `;` to go to last panel
 
   Beyond your first window:
 
-  * `Control + a` then `c` to create a new window
-  * `Control + a` then `n` to next window
-  * `Control + a` then `p` to previous window
-  * `Control + a` then `[0-9]` move to window number
-  * `Control + a` then `&` to kill window
+  * `Control + x` then `c` to create a new window
+  * `Control + x` then `n` to next window
+  * `Control + x` then `p` to previous window
+  * `Control + x` then `[0-9]` move to window number
+  * `Control + x` then `&` to kill window
 
 
-by Tony Narlock (tony@git-pull.com)
+Forked from  Tony Narlock (tony@git-pull.com)  repo
 
-* Github: http://www.github.com/tony
-* Website: http://www.git-pull.com
